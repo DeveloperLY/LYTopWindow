@@ -15,8 +15,6 @@
 		CD8B484C1C7A022C0088D780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8B484A1C7A022C0088D780 /* LaunchScreen.storyboard */; };
 		CD8B48571C7A022C0088D780 /* LYTopWindowExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B48561C7A022C0088D780 /* LYTopWindowExampleTests.m */; };
 		CD8B48621C7A022C0088D780 /* LYTopWindowExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B48611C7A022C0088D780 /* LYTopWindowExampleUITests.m */; };
-		CD8B48721C7A029A0088D780 /* LYTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B48711C7A029A0088D780 /* LYTopWindow.m */; };
-		CD8B48751C7A06410088D780 /* LYTopRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B48741C7A06410088D780 /* LYTopRootController.m */; };
 		CD8B48781C7A10BD0088D780 /* LYTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B48771C7A10BD0088D780 /* LYTitleButton.m */; };
 		CD8B487B1C7A11B50088D780 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B487A1C7A11B50088D780 /* UIView+Extension.m */; };
 		CD8B487F1C7A14840088D780 /* LYVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B487E1C7A14840088D780 /* LYVoiceViewController.m */; };
@@ -25,6 +23,8 @@
 		CD8B48881C7A14DA0088D780 /* LYPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B48871C7A14DA0088D780 /* LYPictureViewController.m */; };
 		CD8B488B1C7A14F00088D780 /* LYWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B488A1C7A14F00088D780 /* LYWordViewController.m */; };
 		CD8B48911C7A1A840088D780 /* LYChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B48901C7A1A840088D780 /* LYChildViewController.m */; };
+		CDCCB19E1C7AB9D70075AFA9 /* LYTopRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCCB19B1C7AB9D70075AFA9 /* LYTopRootController.m */; };
+		CDCCB19F1C7AB9D70075AFA9 /* LYTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCCB19D1C7AB9D70075AFA9 /* LYTopWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +61,6 @@
 		CD8B485D1C7A022C0088D780 /* LYTopWindowExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYTopWindowExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8B48611C7A022C0088D780 /* LYTopWindowExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYTopWindowExampleUITests.m; sourceTree = "<group>"; };
 		CD8B48631C7A022C0088D780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD8B48701C7A029A0088D780 /* LYTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTopWindow.h; sourceTree = "<group>"; };
-		CD8B48711C7A029A0088D780 /* LYTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTopWindow.m; sourceTree = "<group>"; };
-		CD8B48731C7A06410088D780 /* LYTopRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTopRootController.h; sourceTree = "<group>"; };
-		CD8B48741C7A06410088D780 /* LYTopRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTopRootController.m; sourceTree = "<group>"; };
 		CD8B48761C7A10BD0088D780 /* LYTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTitleButton.h; sourceTree = "<group>"; };
 		CD8B48771C7A10BD0088D780 /* LYTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTitleButton.m; sourceTree = "<group>"; };
 		CD8B48791C7A11B50088D780 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
@@ -81,6 +77,10 @@
 		CD8B488A1C7A14F00088D780 /* LYWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYWordViewController.m; sourceTree = "<group>"; };
 		CD8B488F1C7A1A840088D780 /* LYChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYChildViewController.h; sourceTree = "<group>"; };
 		CD8B48901C7A1A840088D780 /* LYChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYChildViewController.m; sourceTree = "<group>"; };
+		CDCCB19A1C7AB9D70075AFA9 /* LYTopRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTopRootController.h; sourceTree = "<group>"; };
+		CDCCB19B1C7AB9D70075AFA9 /* LYTopRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTopRootController.m; sourceTree = "<group>"; };
+		CDCCB19C1C7AB9D70075AFA9 /* LYTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTopWindow.h; sourceTree = "<group>"; };
+		CDCCB19D1C7AB9D70075AFA9 /* LYTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTopWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 		CD8B48301C7A022C0088D780 = {
 			isa = PBXGroup;
 			children = (
-				CD8B486F1C7A02810088D780 /* LYTopWindow */,
+				CDCCB1991C7AB9D70075AFA9 /* LYTopWindow */,
 				CD8B483B1C7A022C0088D780 /* LYTopWindowExample */,
 				CD8B48551C7A022C0088D780 /* LYTopWindowExampleTests */,
 				CD8B48601C7A022C0088D780 /* LYTopWindowExampleUITests */,
@@ -176,17 +176,6 @@
 			path = LYTopWindowExampleUITests;
 			sourceTree = "<group>";
 		};
-		CD8B486F1C7A02810088D780 /* LYTopWindow */ = {
-			isa = PBXGroup;
-			children = (
-				CD8B48701C7A029A0088D780 /* LYTopWindow.h */,
-				CD8B48711C7A029A0088D780 /* LYTopWindow.m */,
-				CD8B48731C7A06410088D780 /* LYTopRootController.h */,
-				CD8B48741C7A06410088D780 /* LYTopRootController.m */,
-			);
-			path = LYTopWindow;
-			sourceTree = "<group>";
-		};
 		CD8B487C1C7A120F0088D780 /* ChildVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +193,17 @@
 				CD8B48901C7A1A840088D780 /* LYChildViewController.m */,
 			);
 			name = ChildVC;
+			sourceTree = "<group>";
+		};
+		CDCCB1991C7AB9D70075AFA9 /* LYTopWindow */ = {
+			isa = PBXGroup;
+			children = (
+				CDCCB19A1C7AB9D70075AFA9 /* LYTopRootController.h */,
+				CDCCB19B1C7AB9D70075AFA9 /* LYTopRootController.m */,
+				CDCCB19C1C7AB9D70075AFA9 /* LYTopWindow.h */,
+				CDCCB19D1C7AB9D70075AFA9 /* LYTopWindow.m */,
+			);
+			path = LYTopWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,14 +340,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD8B48721C7A029A0088D780 /* LYTopWindow.m in Sources */,
 				CD8B488B1C7A14F00088D780 /* LYWordViewController.m in Sources */,
 				CD8B48441C7A022C0088D780 /* ViewController.m in Sources */,
-				CD8B48751C7A06410088D780 /* LYTopRootController.m in Sources */,
 				CD8B48851C7A14C90088D780 /* LYVideoViewController.m in Sources */,
 				CD8B487B1C7A11B50088D780 /* UIView+Extension.m in Sources */,
+				CDCCB19E1C7AB9D70075AFA9 /* LYTopRootController.m in Sources */,
 				CD8B487F1C7A14840088D780 /* LYVoiceViewController.m in Sources */,
 				CD8B48821C7A14AB0088D780 /* LYAllViewController.m in Sources */,
+				CDCCB19F1C7AB9D70075AFA9 /* LYTopWindow.m in Sources */,
 				CD8B48881C7A14DA0088D780 /* LYPictureViewController.m in Sources */,
 				CD8B48781C7A10BD0088D780 /* LYTitleButton.m in Sources */,
 				CD8B48411C7A022C0088D780 /* AppDelegate.m in Sources */,
@@ -576,6 +576,7 @@
 				CD8B48681C7A022C0088D780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD8B48691C7A022C0088D780 /* Build configuration list for PBXNativeTarget "LYTopWindowExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +585,7 @@
 				CD8B486B1C7A022C0088D780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD8B486C1C7A022C0088D780 /* Build configuration list for PBXNativeTarget "LYTopWindowExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +594,7 @@
 				CD8B486E1C7A022C0088D780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
