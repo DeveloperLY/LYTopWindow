@@ -11,7 +11,7 @@
 
   1.  [ 为什么要写这个小框架 ](http://www.jianshu.com/p/89d8f000b2bf#为什么要写这个小框架) 
   2.  [ 集成后的效果 ](https://github.com/CoderYLiu/LYTopWindow#集成后的效果) 
-  3.  [ 使用LYTopWindow ](https://github.com/CoderYLiu/LYTopWindow#使用[LYTopWindow](https://github.com/CoderYLiu/LYTopWindow)) 
+  3.  [ 使用LYTopWindow ](https://github.com/CoderYLiu/LYTopWindow#使用LYTopWindow) 
   4.  [ 运行Demo ](https://github.com/CoderYLiu/LYTopWindow#运行demo) 
 
 
@@ -23,7 +23,7 @@
 
 ![集成后的效果](http://upload-images.jianshu.io/upload_images/1274138-058966549852cd7e.gif?imageMogr2/auto-orient/strip)
 
-## 使用[LYTopWindow](https://github.com/CoderYLiu/LYTopWindow)
+## 使用LYTopWindow
 
 三步完成：
 
