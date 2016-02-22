@@ -25,9 +25,9 @@
 
 ## 使用LYTopWindow
 
-三步完成：
+两步完成：
 
-  1.  [ 第一步：使用cocoaPods导入LYTopWindow ](https://github.com/CoderYLiu/LYTopWindow#第一步使用cocoapods导入LYTopWindow) 
+  1.  [第一步：使用cocoaPods导入LYTopWindow ](https://github.com/CoderYLiu/LYTopWindow#第一步使用cocoapods导入LYTopWindow) 
   2.  [第二步：集成点击状态栏，滚动视图当前内容滚动到顶部](https://github.com/CoderYLiu/LYTopWindow#第二步集成点击状态栏，滚动视图当前内容滚动到顶部) 
 
 
