@@ -11,7 +11,7 @@
 
   1.  [ 为什么要写这个小框架 ](http://www.jianshu.com/p/89d8f000b2bf#为什么要写这个小框架) 
   2.  [ 集成后的效果 ](https://github.com/CoderYLiu/LYTopWindow#集成后的效果) 
-  3.  [ 使用LYTopWindow ](https://github.com/CoderYLiu/LYTopWindow#使用LYTopWindow) 
+  3.  [ 使用LYTopWindow ](https://github.com/CoderYLiu/LYTopWindow#使用[LYTopWindow](https://github.com/CoderYLiu/LYTopWindow)) 
   4.  [ 运行Demo ](https://github.com/CoderYLiu/LYTopWindow#运行demo) 
 
 
