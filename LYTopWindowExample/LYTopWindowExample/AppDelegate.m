@@ -20,7 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [[LYTopWindow sharedTopWindow] setClickStatusBarBlock:^{
+        // 让keyWindow上的ScrollView滚动到顶部
         [[LYTopWindow sharedTopWindow] searchAllScrollViewsInView:[UIApplication sharedApplication].keyWindow];
+        
+        // 如果需要实现点击状态栏，实现其他功能，可用在这里编写功能代码
     }];
     
     return YES;

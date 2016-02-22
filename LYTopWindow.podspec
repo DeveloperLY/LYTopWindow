@@ -6,7 +6,7 @@ spec.homepage = "https://github.com/CoderYLiu/LYTopWindow"
 spec.license = { type: 'Apache License 2.0', file: 'LICENSE' }
 spec.authors = { "CoderYLiu" => 'coderyliu@gmail.com' }
 
-spec.platform = :ios, "8.0"
+spec.platform = :ios, "7.0"
 
 spec.requires_arc = true
 

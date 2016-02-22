@@ -94,17 +94,6 @@ static char nametag_key;
     return self.frame.size;
 }
 
-- (BOOL)intersectWithView:(UIView *)anotherView {
-    if (anotherView == nil) {
-        anotherView = [UIApplication sharedApplication].keyWindow;
-    }
-    
-    CGRect rect1 = [self convertRect:self.bounds toView:nil];
-    CGRect rect2 = [anotherView convertRect:anotherView.bounds toView:nil];
-    return CGRectIntersectsRect(rect1, rect2);
-}
-
-
 - (void)setNametag:(NSString *)theNametag {
     objc_setAssociatedObject(self, &nametag_key, theNametag, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }

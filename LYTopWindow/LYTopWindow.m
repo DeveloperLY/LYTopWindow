@@ -9,6 +9,7 @@
 #import "LYTopWindow.h"
 #import "LYTopRootController.h"
 
+#pragma mark - UIView Extension
 @interface UIView (Extension)
 
 /**
@@ -32,6 +33,7 @@
 
 @end
 
+#pragma mark - 顶部Window
 @interface LYTopWindow () <NSCopying, NSMutableCopying>
 
 @end

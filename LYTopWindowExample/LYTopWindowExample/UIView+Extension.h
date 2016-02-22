@@ -16,11 +16,6 @@
 @property (nonatomic, assign) CGSize size;
 @property (nonatomic, assign) CGPoint origin;
 
-/**
- *  判断屏幕上的self是否和anotherView有重叠
- */
-- (BOOL)intersectWithView:(UIView *)anotherView;
-
 - (NSString *)getNametag;
 
 - (void)setNametag:(NSString *)theNametag;
