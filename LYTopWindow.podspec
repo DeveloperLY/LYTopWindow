@@ -10,8 +10,8 @@ spec.platform = :ios, "7.0"
 
 spec.requires_arc = true
 
-spec.source = { git: "https://github.com/CoderYLiu/LYTopWindow.git", tag: "1.0.3"}
+spec.source = { git: "https://github.com/CoderYLiu/LYTopWindow.git", tag: '1.0.3'}
 
-spec.source_files = "LYTopWindowExample/LYTopWindow/*.{h,m}"
+spec.source_files = "LYTopWindow/**/*.{h,m}"
 
 end
