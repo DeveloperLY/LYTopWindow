@@ -1,4 +1,4 @@
-# LYTopWindow【一行代码完成“点击状态栏当前内容滚动到顶部”】
+# LYTopWindow【一行代码完成“点击状态栏,滚动视图当前内容滚动到顶部”】
 
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 
 ## 为什么要写这个小框架
-可用查看[一行代码完成“点击状态栏当前内容滚动到顶部](http://www.jianshu.com/p/89d8f000b2bf)
+可用查看[一行代码完成“点击状态栏，滚动视图当前内容滚动到顶部](http://www.jianshu.com/p/89d8f000b2bf)
 
 
 ## 集成后的效果
@@ -28,7 +28,7 @@
 三步完成：
 
   1.  [ 第一步：使用cocoaPods导入LYTopWindow ](https://github.com/CoderYLiu/LYTopWindow#第一步使用cocoapods导入LYTopWindow) 
-  2.  [第二步：集成点击状态栏当前内容滚动到顶部](https://github.com/CoderYLiu/LYTopWindow#第二步集成点击状态栏当前内容滚动到顶部) 
+  2.  [第二步：集成点击状态栏，滚动视图当前内容滚动到顶部](https://github.com/CoderYLiu/LYTopWindow#第二步集成点击状态栏，滚动视图当前内容滚动到顶部) 
 
 
 ### 第一步：使用CocoaPods导入LYTopWindow
@@ -73,7 +73,7 @@ pod update
 
 
 
-### 第二步：集成点击状态栏当前内容滚动到顶部
+### 第二步：集成点击状态栏，滚动视图当前内容滚动到顶部
 
 
 
