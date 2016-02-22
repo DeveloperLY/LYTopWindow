@@ -20,34 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [[LYTopWindow sharedTopWindow] setClickStatusBarBlock:^{
-        UIWindow *window = [UIApplication sharedApplication].keyWindow;
-        [self searchAllScrollViewsInView:window];
+        [[LYTopWindow sharedTopWindow] searchAllScrollViewsInView:[UIApplication sharedApplication].keyWindow];
     }];
     
     return YES;
-}
-
-/**
- *  查找view中的所有scrollView
- */
-- (void)searchAllScrollViewsInView:(UIView *)view {
-    // 如果不在window矩形框里面，就直接返回
-    // view和window没有重叠，就直接返回
-    if (![view intersectWithView:nil]) return;
-    
-    for (UIView *subview in view.subviews) {
-        [self searchAllScrollViewsInView:subview];
-    }
-    
-    // 如果不是UIScrollView, 直接返回
-    if (![view isKindOfClass:[UIScrollView class]]) return;
-    
-    UIScrollView *scrollView = (UIScrollView *)view;
-    
-    // 让scrollView滚动到最前面
-    CGPoint offset = scrollView.contentOffset;
-    offset.y = - scrollView.contentInset.top;
-    [scrollView setContentOffset:offset animated:YES];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

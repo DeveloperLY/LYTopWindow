@@ -26,4 +26,7 @@
 /** 状态栏的显示样式 */
 @property (nonatomic, assign) UIStatusBarStyle statusBarStyle;
 
+/** 查找当前View中的ScrollView,让UIScrollView滚动到最前面 */
+- (void)searchAllScrollViewsInView:(UIView *)view;
+
 @end
