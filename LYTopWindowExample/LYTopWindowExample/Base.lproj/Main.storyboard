@@ -18,11 +18,63 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="百思不得姐" id="dNq-42-Tts"/>
+                    <navigationItem key="navigationItem" title="百思不得姐" id="dNq-42-Tts">
+                        <barButtonItem key="rightBarButtonItem" title="状态栏样式/可见性Demo" id="cuu-HZ-LZZ">
+                            <connections>
+                                <segue destination="Ox1-V8-WSk" kind="show" id="HUJ-0E-W4g"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1278" y="1004"/>
+            <point key="canvasLocation" x="1262" y="1004"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HQq-05-oWc">
+            <objects>
+                <viewController id="Ox1-V8-WSk" customClass="LYViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jyx-Q2-8ts"/>
+                        <viewControllerLayoutGuide type="bottom" id="FpP-HE-pzF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nn0-mR-nPa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jV8-LD-P15">
+                                <rect key="frame" x="260" y="164" width="81" height="29"/>
+                                <segments>
+                                    <segment title="显示"/>
+                                    <segment title="隐藏"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeHidden:" destination="Ox1-V8-WSk" eventType="valueChanged" id="a6B-ec-Upo"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="9Kh-tx-FDX">
+                                <rect key="frame" x="260" y="292" width="81" height="29"/>
+                                <segments>
+                                    <segment title="黑色"/>
+                                    <segment title="白色"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeStyle:" destination="Ox1-V8-WSk" eventType="valueChanged" id="e0r-4X-cT5"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9Kh-tx-FDX" firstAttribute="top" secondItem="jV8-LD-P15" secondAttribute="bottom" constant="100" id="Fuw-Ha-q89"/>
+                            <constraint firstItem="jV8-LD-P15" firstAttribute="top" secondItem="Jyx-Q2-8ts" secondAttribute="bottom" constant="100" id="Imp-oZ-IKy"/>
+                            <constraint firstItem="jV8-LD-P15" firstAttribute="centerX" secondItem="Nn0-mR-nPa" secondAttribute="centerX" id="gx0-3X-44q"/>
+                            <constraint firstItem="9Kh-tx-FDX" firstAttribute="centerX" secondItem="Nn0-mR-nPa" secondAttribute="centerX" id="kLt-zh-g9M"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YVU-uF-CeG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1934" y="998"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mos-Lu-TqV">

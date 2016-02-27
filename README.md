@@ -98,7 +98,27 @@ pod update
  ```Objective-C
  [LYTopWindow sharedTopWindow] searchAllScrollViewsInView:[UIApplication sharedApplication].keyWindow];
  ```
- 
+## 补充
+由于`keyWindow`的控制器不再是最顶层控制器了，那么控制器的这两个方法会失效
+
+- 控制器的`- (BOOL)prefersStatusBarHidden`方法决定状态栏的可见性
+- 控制器的`- (UIStatusBarStyle)preferredStatusBarStyle`方法决定状态栏的样式
+
+原因就是状态栏的样式\可见性，由最顶层（盖在最上面）`window`的控制器来决定
+
+所以如果使用了[LYTopWindwo](https://github.com/CoderYLiu/LYTopWindow)，如果要控制状态栏的样式和可见性可以使用下面的代码：
+```Objective-C
+// 可见性
+    [LYTopWindow sharedTopWindow].statusBarHidden = NO;
+    [LYTopWindow sharedTopWindow].statusBarHidden = YES;
+```
+
+```Objective-C
+    // 样式
+    [LYTopWindow sharedTopWindow].statusBarStyle = UIStatusBarStyleDefault;
+    [LYTopWindow sharedTopWindow].statusBarStyle = UIStatusBarStyleLightContent;
+```
+
 
 ## 运行Demo
 

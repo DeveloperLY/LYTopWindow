@@ -23,6 +23,7 @@
 		CD8B48881C7A14DA0088D780 /* LYPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B48871C7A14DA0088D780 /* LYPictureViewController.m */; };
 		CD8B488B1C7A14F00088D780 /* LYWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B488A1C7A14F00088D780 /* LYWordViewController.m */; };
 		CD8B48911C7A1A840088D780 /* LYChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B48901C7A1A840088D780 /* LYChildViewController.m */; };
+		CDA139051C8194C500F6946C /* LYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA139041C8194C500F6946C /* LYViewController.m */; };
 		CDCCB1A51C7ABB4D0075AFA9 /* LYTopRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCCB1A21C7ABB4D0075AFA9 /* LYTopRootController.m */; };
 		CDCCB1A61C7ABB4D0075AFA9 /* LYTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCCB1A41C7ABB4D0075AFA9 /* LYTopWindow.m */; };
 /* End PBXBuildFile section */
@@ -77,6 +78,8 @@
 		CD8B488A1C7A14F00088D780 /* LYWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYWordViewController.m; sourceTree = "<group>"; };
 		CD8B488F1C7A1A840088D780 /* LYChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYChildViewController.h; sourceTree = "<group>"; };
 		CD8B48901C7A1A840088D780 /* LYChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYChildViewController.m; sourceTree = "<group>"; };
+		CDA139031C8194C500F6946C /* LYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYViewController.h; sourceTree = "<group>"; };
+		CDA139041C8194C500F6946C /* LYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYViewController.m; sourceTree = "<group>"; };
 		CDCCB1A11C7ABB4D0075AFA9 /* LYTopRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTopRootController.h; sourceTree = "<group>"; };
 		CDCCB1A21C7ABB4D0075AFA9 /* LYTopRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTopRootController.m; sourceTree = "<group>"; };
 		CDCCB1A31C7ABB4D0075AFA9 /* LYTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTopWindow.h; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				CD8B48401C7A022C0088D780 /* AppDelegate.m */,
 				CD8B48421C7A022C0088D780 /* ViewController.h */,
 				CD8B48431C7A022C0088D780 /* ViewController.m */,
+				CDA139031C8194C500F6946C /* LYViewController.h */,
+				CDA139041C8194C500F6946C /* LYViewController.m */,
 				CD8B48761C7A10BD0088D780 /* LYTitleButton.h */,
 				CD8B48771C7A10BD0088D780 /* LYTitleButton.m */,
 				CD8B48451C7A022C0088D780 /* Main.storyboard */,
@@ -350,6 +355,7 @@
 				CD8B48821C7A14AB0088D780 /* LYAllViewController.m in Sources */,
 				CDCCB1A61C7ABB4D0075AFA9 /* LYTopWindow.m in Sources */,
 				CD8B48881C7A14DA0088D780 /* LYPictureViewController.m in Sources */,
+				CDA139051C8194C500F6946C /* LYViewController.m in Sources */,
 				CD8B48781C7A10BD0088D780 /* LYTitleButton.m in Sources */,
 				CD8B48411C7A022C0088D780 /* AppDelegate.m in Sources */,
 				CD8B483E1C7A022C0088D780 /* main.m in Sources */,
