@@ -37,45 +37,36 @@
 在 `Podfile` 中进行如下导入：
 
 
- ```Objective-C
+```
 pod 'LYTopWindow'
- ```
-
-
+```
 
 然后使用 `cocoaPods` 进行安装：
 
 如果尚未安装 CocoaPods, 运行以下命令进行安装:
 
-
- ```Objective-C
+```
 gem install cocoapods
- ```
-
+```
 
 安装成功后就可以安装依赖了：
 
 建议使用如下方式：
 
-
- ```Objective-C
- # 禁止升级CocoaPods的spec仓库，否则会卡在 Analyzing dependencies ，非常慢 
- pod update --verbose --no-repo-update
- ```
-
+```
+# 禁止升级CocoaPods的spec仓库，否则会卡在 Analyzing dependencies ，非常慢 
+pod update --verbose --no-repo-update
+```
 
 如果提示找不到库，则可去掉 --no-repo-update
 
 
- ```Objective-C
+```
 pod update
- ```
-
+```
 
 
 ### 第二步：集成点击状态栏，滚动视图当前内容滚动到顶部
-
-
 
 导入头文件
 
@@ -87,16 +78,17 @@ pod update
 
  ```Objective-C
 [[LYTopWindow sharedTopWindow] setClickStatusBarBlock:^{
-        // 让keyWindow上的ScrollView滚动到顶部
-        [[LYTopWindow sharedTopWindow] searchAllScrollViewsInView:[UIApplication sharedApplication].keyWindow];
+	// 让keyWindow上的ScrollView滚动到顶部
+	[[LYTopWindow sharedTopWindow] searchAllScrollViewsInView:[UIApplication sharedApplication].keyWindow];
         
-        // 如果需要实现点击状态栏，实现其他功能，可用在这里编写功能代码
+	// 如果需要实现点击状态栏，实现其他功能，可用在这里编写功能代码
 }];
  ```
 
 注意：如果需要实现其他功能效果，可以将这句代码替换成其他需要的代码
+
  ```Objective-C
- [LYTopWindow sharedTopWindow] searchAllScrollViewsInView:[UIApplication sharedApplication].keyWindow];
+[LYTopWindow sharedTopWindow] searchAllScrollViewsInView:[UIApplication sharedApplication].keyWindow];
  ```
 ## 补充
 由于`keyWindow`的控制器不再是最顶层控制器了，那么控制器的这两个方法会失效
@@ -106,28 +98,29 @@ pod update
 
 原因就是状态栏的样式\可见性，由最顶层（盖在最上面）`window`的控制器来决定
 
-所以如果使用了[LYTopWindwo](https://github.com/CoderYLiu/LYTopWindow)，如果要控制状态栏的样式和可见性可以使用下面的代码：
+所以如果使用了[LYTopWindwo](https://github.com/DeveloperLY/LYTopWindow)，如果要控制状态栏的样式和可见性可以使用下面的代码：
+
 ```Objective-C
 // 可见性
-    [LYTopWindow sharedTopWindow].statusBarHidden = NO;
-    [LYTopWindow sharedTopWindow].statusBarHidden = YES;
+[LYTopWindow sharedTopWindow].statusBarHidden = NO;
+[LYTopWindow sharedTopWindow].statusBarHidden = YES;
 ```
 
 ```Objective-C
-    // 样式
-    [LYTopWindow sharedTopWindow].statusBarStyle = UIStatusBarStyleDefault;
-    [LYTopWindow sharedTopWindow].statusBarStyle = UIStatusBarStyleLightContent;
+// 样式
+[LYTopWindow sharedTopWindow].statusBarStyle = UIStatusBarStyleDefault;
+[LYTopWindow sharedTopWindow].statusBarStyle = UIStatusBarStyleLightContent;
 ```
 
 
 ## 运行Demo
 
- ```Objective-C
+```
 # 打开终端，进入 clone 的文件夹
 cd /Users/YourUserName/Documents/LYTopWindow
 # 如果提示找不到库，则可去掉 --no-repo-update
 pod install --verbose --no-repo-update 
 cd LYTopWindowExample 
 open LYTopWindowExample.xcodeproj
- ```
+```
 
