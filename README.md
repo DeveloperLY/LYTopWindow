@@ -1,11 +1,9 @@
 # LYTopWindow【一行代码完成“点击状态栏,滚动视图当前内容滚动到顶部”】
 
 
-<a align="center">
 ![enter image description here](https://img.shields.io/badge/pod-v1.0.4-brightgreen.svg)
 ![enter image description here](https://img.shields.io/badge/Objective--C-compatible-orange.svg)
 ![enter image description here](https://img.shields.io/badge/platform-iOS%207.0%2B-ff69b4.svg)
-</a>
 
 ## 导航
 
