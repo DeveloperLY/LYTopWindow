@@ -1,0 +1,16 @@
+PODS:
+  - LYTopWindow (0.1.0)
+
+DEPENDENCIES:
+  - LYTopWindow (from `../`)
+
+EXTERNAL SOURCES:
+  LYTopWindow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYTopWindow: 5aeaac21165e796ef11f453d321bbcd2e053cd59
+
+PODFILE CHECKSUM: bb21c4c5c649f03217370d480c5e3e6d91f7b8ff
+
+COCOAPODS: 1.8.1

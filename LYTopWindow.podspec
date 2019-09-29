@@ -1,17 +1,44 @@
-Pod::Spec.new do |spec|
-spec.name = "LYTopWindow"
-spec.version = "1.0.4"
-spec.summary = "一行代码集成点击状态栏时，当前window上ScrollView滚动到顶部。"
-spec.homepage = "https://github.com/DeveloperLY/LYTopWindow"
-spec.license = { type: 'Apache License 2.0', file: 'LICENSE' }
-spec.authors = { "DeveloperLY" => 'coderyliu@gmail.com' }
+#
+# Be sure to run `pod lib lint LYTopWindow.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
 
-spec.platform = :ios, "8.0"
+Pod::Spec.new do |s|
+  s.name             = 'LYTopWindow'
+  s.version          = '1.0.5'
+  s.summary          = '一行代码集成点击状态栏时(当前控制器多个 ScrollView)，当前 UIWindow 上 ScrollView 滚动到顶部。'
 
-spec.requires_arc = true
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-spec.source = { git: "https://github.com/DeveloperLY/LYTopWindow.git", tag: '1.0.4'}
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
-spec.source_files = "LYTopWindow/**/*.{h,m}"
+  s.homepage         = 'https://github.com/DeveloperLY/LYTopWindow'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'DeveloperLY' => 'coderyliu@gmail.com' }
+  s.source           = { :git => 'https://github.com/DeveloperLY/LYTopWindow.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.ios.deployment_target = '8.0'
+
+  s.requires_arc = true
+
+  s.source_files = 'LYTopWindow/Classes/**/*'
+  
+  # s.resource_bundles = {
+  #   'LYTopWindow' => ['LYTopWindow/Assets/*.png']
+  # }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end

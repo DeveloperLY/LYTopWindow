@@ -1,0 +1,6 @@
+framework module Pods_LYTopWindow_Tests {
+  umbrella header "Pods-LYTopWindow_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

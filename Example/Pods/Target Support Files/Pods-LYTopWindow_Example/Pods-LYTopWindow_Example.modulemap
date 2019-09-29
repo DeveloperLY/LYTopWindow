@@ -1,0 +1,6 @@
+framework module Pods_LYTopWindow_Example {
+  umbrella header "Pods-LYTopWindow_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

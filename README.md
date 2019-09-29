@@ -1,9 +1,9 @@
 # LYTopWindow【一行代码完成“点击状态栏,滚动视图当前内容滚动到顶部”】
 
 
-![enter image description here](https://img.shields.io/badge/pod-v1.0.4-brightgreen.svg)
-![enter image description here](https://img.shields.io/badge/Objective--C-compatible-orange.svg)
-![enter image description here](https://img.shields.io/badge/platform-iOS%207.0%2B-ff69b4.svg)
+![compatible](https://img.shields.io/badge/Objective--C-compatible-orange.svg)
+![Cocoapods platforms](https://img.shields.io/cocoapods/p/LYTopWindow)
+![Version](https://img.shields.io/cocoapods/v/LYTopWindow.svg?style=flat)
 
 ## 导航
 
@@ -121,4 +121,9 @@ pod install --verbose --no-repo-update
 cd LYTopWindowExample 
 open LYTopWindowExample.xcodeproj
 ```
+
+## License
+
+LYTopWindow is available under the MIT license. See the LICENSE file for more info.
+
 
