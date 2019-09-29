@@ -16,9 +16,9 @@
 		184D554323403FE1006A0FF2 /* LYVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D553D23403FE1006A0FF2 /* LYVoiceViewController.m */; };
 		184D554A2340412F006A0FF2 /* LYTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D55492340412F006A0FF2 /* LYTitleButton.m */; };
 		184D554D23404419006A0FF2 /* LYStatusBarStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D554C23404419006A0FF2 /* LYStatusBarStyleViewController.m */; };
-		184D554F23404B5A006A0FF2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 184D554E23404B5A006A0FF2 /* LICENSE */; };
-		184D555123404B61006A0FF2 /* LYTopWindow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 184D555023404B61006A0FF2 /* LYTopWindow.podspec */; };
-		184D555323404B67006A0FF2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 184D555223404B67006A0FF2 /* README.md */; };
+		184D555A23404FA1006A0FF2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 184D555923404FA1006A0FF2 /* LICENSE */; };
+		184D555C23404FB3006A0FF2 /* LYTopWindow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 184D555B23404FB3006A0FF2 /* LYTopWindow.podspec */; };
+		184D555E23404FB8006A0FF2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 184D555D23404FB8006A0FF2 /* README.md */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -67,9 +67,9 @@
 		184D55492340412F006A0FF2 /* LYTitleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYTitleButton.m; sourceTree = "<group>"; };
 		184D554B23404419006A0FF2 /* LYStatusBarStyleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYStatusBarStyleViewController.h; sourceTree = "<group>"; };
 		184D554C23404419006A0FF2 /* LYStatusBarStyleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYStatusBarStyleViewController.m; sourceTree = "<group>"; };
-		184D554E23404B5A006A0FF2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
-		184D555023404B61006A0FF2 /* LYTopWindow.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LYTopWindow.podspec; path = ../../../LYTopWindow.podspec; sourceTree = "<group>"; };
-		184D555223404B67006A0FF2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		184D555923404FA1006A0FF2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		184D555B23404FB3006A0FF2 /* LYTopWindow.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LYTopWindow.podspec; path = ../../LYTopWindow.podspec; sourceTree = "<group>"; };
+		184D555D23404FB8006A0FF2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LYTopWindow_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYTopWindow_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -200,6 +200,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		184D555823404F96006A0FF2 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				184D555923404FA1006A0FF2 /* LICENSE */,
+				184D555B23404FB3006A0FF2 /* LYTopWindow.podspec */,
+				184D555D23404FB8006A0FF2 /* README.md */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -236,7 +246,7 @@
 		6003F593195388D20070C39A /* Example for LYTopWindow */ = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				184D555823404F96006A0FF2 /* Podspec Metadata */,
 				184D552923403D46006A0FF2 /* AppDelegate */,
 				184D552A23403D65006A0FF2 /* Main */,
 				184D552C23403F04006A0FF2 /* Other */,
@@ -276,16 +286,6 @@
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				184D554E23404B5A006A0FF2 /* LICENSE */,
-				184D555023404B61006A0FF2 /* LYTopWindow.podspec */,
-				184D555223404B67006A0FF2 /* README.md */,
-			);
-			path = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 		B565006EF17A4630EAD17A0E /* Pods */ = {
@@ -380,12 +380,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				184D555123404B61006A0FF2 /* LYTopWindow.podspec in Resources */,
+				184D555C23404FB3006A0FF2 /* LYTopWindow.podspec in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				184D555323404B67006A0FF2 /* README.md in Resources */,
+				184D555E23404FB8006A0FF2 /* README.md in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				184D554F23404B5A006A0FF2 /* LICENSE in Resources */,
+				184D555A23404FA1006A0FF2 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
